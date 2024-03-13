@@ -15,7 +15,6 @@ export default function Navbar() {
                 <li onClick={()=>navigate("/blog")}>Blog</li>
                 <li onClick={()=>navigate("/contacto")}>Contacto</li>
                 <li onClick={()=>navigate("/galeria")}>Galeria</li>
-                <li routerlink='/blog'>Galeria</li>
 
             </ul>
         </nav>
